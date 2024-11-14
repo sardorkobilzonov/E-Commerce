@@ -1,0 +1,83 @@
+main {
+  .arival__section {
+    .line__text {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding-top: 140px;
+      .line__box {
+        width: 100%;
+        max-width: 20px;
+        height: 40px;
+        border: 1px solid;
+        border: none;
+        border-radius: 4px;
+        background-color: #db4444;
+      }
+      .box__text {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #db4444;
+      }
+    }
+    .arival__title {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: 4%;
+      padding-top: 20px;
+      padding-bottom: 60px;
+    }
+    .ariva__images {
+      padding-bottom: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .ps__girl__images {
+        display: flex;
+        gap: 20px;
+        .ps__image {
+          width: 100%;
+          max-width: 570px;
+        }
+        .girl__image {
+          width: 100%;
+          max-width: 570px;
+          height: 284px;
+        }
+      }
+      .speak__parfume {
+        margin-left: 20px;
+        margin-top: 305px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+      }
+    }
+    .services {
+      padding-bottom: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 88px;
+      .services__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        .services__title {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 28px;
+        }
+        .services__text {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}

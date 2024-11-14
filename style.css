@@ -1,0 +1,169 @@
+main .arival__section .line__text {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 140px;
+}
+main .arival__section .line__text .line__box {
+  width: 100%;
+  max-width: 20px;
+  height: 40px;
+  border: 1px solid;
+  border: none;
+  border-radius: 4px;
+  background-color: #db4444;
+}
+main .arival__section .line__text .box__text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #db4444;
+}
+main .arival__section .arival__title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 4%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+main .arival__section .ariva__images {
+  padding-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .arival__section .ariva__images .ps__girl__images {
+  display: flex;
+  gap: 20px;
+}
+main .arival__section .ariva__images .ps__girl__images .ps__image {
+  width: 100%;
+  max-width: 570px;
+}
+main .arival__section .ariva__images .ps__girl__images .girl__image {
+  width: 100%;
+  max-width: 570px;
+  height: 284px;
+}
+main .arival__section .ariva__images .speak__parfume {
+  margin-left: 20px;
+  margin-top: 305px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+main .arival__section .services {
+  padding-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+}
+main .arival__section .services .services__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+main .arival__section .services .services__card .services__title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+main .arival__section .services .services__card .services__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 135px 120px;
+  color: #fff;
+}
+footer .footer {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+footer .footer .inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+footer .footer .inform .exclusive__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+footer .footer .inform .infotm__title2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer .footer .inform .inform__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer .inform input {
+  width: 100%;
+  max-width: 217px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 40%;
+  background-color: #000000;
+  border: 1.5px solid #fff;
+  outline: none;
+  border-radius: 4px;
+  color: #fff;
+}
+footer .footer .inform .infotm__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer .footer .inform .infotm__title3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer .inform .inform__text2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer .inform .inform__tel {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .footer .app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+}
+footer .footer .app .app__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 20px;
+}/*# sourceMappingURL=style.css.map */
